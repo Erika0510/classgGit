@@ -1,5 +1,5 @@
 const comicsController={}
 
 comicsController.getComics=(req,res)=>{
-    res.json({message:"Lista de comics"});
+    res.json({message:"Lista de comic"});
 }

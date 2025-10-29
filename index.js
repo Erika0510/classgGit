@@ -8,6 +8,8 @@ app.use(express.json());
 
 app.use('/comics', require('./routes/comics'));
 
+app.use('/types', require('./routes/types'));
+
 app.listen(port, () => {
     console.log(`hola mundo en el puerto `);
 });

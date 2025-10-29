@@ -1,7 +1,7 @@
 const typesController={}
 const axios=require('axios');
 
-comicsController.getTypes= async (req,res)=>{
+typesController.getTypes= async (req,res)=>{
 
    
     const POKEMON_API=process.env.POKEMON_API;

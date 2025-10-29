@@ -1,6 +1,7 @@
 const comicsController = require('../controllers/comics');
 
 const router = require('express').Router();
-router.get('/', comicsController.getComics);
-
+router.get('/', pokemonController.getComics);
 module.exports = router;
+
+router.get('/', comicsController.getPokemonSpecies);
